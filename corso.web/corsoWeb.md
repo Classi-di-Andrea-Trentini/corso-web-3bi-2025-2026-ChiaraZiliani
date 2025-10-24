@@ -17,11 +17,14 @@ Creo una pagina --> HTML per formattarla --> serve un programma per leggerla (BR
 
 ***Sito utile*** https://www.w3schools.com/
 
-Per pubblicare il nostro sito web ci serve --> webServer
-Client --> richiede di utilizzare un servizio
-Server --> computer che offre/fornisce i servizi ai client attraverso la rete
-Peer to peer --> ogni computer connesso alla rete è allo stesso tempo client e server (mette a disposizione informazioni per altri)
+**Per pubblicare il nostro sito web ci serve --> webServer**
+- Client --> richiede di utilizzare un servizio
+- Server --> computer che offre/fornisce i servizi ai client attraverso la rete
+- Peer to peer --> ogni computer connesso alla rete è allo stesso tempo client e server (mette a disposizione informazioni per altri)
 
 ***Server***
-Printer server --> consente di condividere le stampanti 
-Live Server --> (WebServer con più utilità) utilizzato per vedere l'anteprima in rete del sito che creiamo con anche e modifiche in tempo reale 
+- Printer server --> consente di condividere le stampanti 
+- Live Server --> (WebServer con più utilità) utilizzato per vedere l'anteprima in rete del sito che creiamo con anche e modifiche in tempo reale 
+
+### Struttura base
+- <!DOCTYPE html> --> versione 5
