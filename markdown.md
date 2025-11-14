@@ -66,6 +66,10 @@ NB TILDE --> alt + 126
 **Immagini**
 ![Questa è un'immagine con URL relativa](universo-orig.webp)
 ![Questa è un'immagine con URL assoluta](https://cdn.studenti.stbm.it/images/2017/04/10/universo-orig.jpeg)
+https:// --> hypertext transfer protocol --> serve per il trasferimento di ipertesti  
+**IPERTESTI** --> documenti che contengono collegamenti ad altri documenti o parti ello stello documento  
+**RGB** --> metodo additivo --> massimo di ogni colore = **bianco**  
+**STAMPANTE** --> metodo sottrattivo --> ciano giallo e magenta --> massimo di ogni colore = **nero**
 
 ## Codice 
 Per inserire codici o parti di codici si mettono tre asterischi "storti" (accenti gravi) con a seguire il nome del programma (java/bash...).
@@ -95,6 +99,10 @@ Se si vuole inserire un'istruzione in un paragrafo normale la si mette tra aster
 Per spostare le righe si deve tenere premuto ALT + SHIFT e spostare con le frecce (su o giu).
 
 Per duplicare le righe si deve tenere premuto ALT + SHIFT e premere le frecce (su o giu, non cambia, la riga duplicata verrà sempre sotto). 
+
+## Commenti  
+\<!-- questo è un commento -->  
+Per scriverlo più velocemente --> ALT + SHIFT + A  
 
 ## Note a piè pagina 
 Può capitare di voler inserire delle note a piè pagina in un documento [^1].  
