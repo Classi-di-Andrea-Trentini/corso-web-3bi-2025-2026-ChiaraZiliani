@@ -12,6 +12,16 @@ Esistono 6 livelli di titolo (come in HTML):
 ##### Titolo 5 
 ###### Titolo 6
 
+### ESEMPIO
+```html
+<h1>Titolo principale</h1>
+<h2>Sottotitolo</h2>
+<h3>Sezione</h3>
+<h4>Sottosezione</h4>
+<h5>Dettaglio</h5>
+<h6>Nota</h6>
+```
+
 ## Paragrafi 
 I paragrafi vengono inseriti scrivendo il testo a capo.
 
@@ -54,6 +64,11 @@ ___Anche questo testo è in grassetto e corsivo___ (\_ _ _)
 ~~Questo testo è barrato~~ (\~~)  
 NB TILDE --> alt + 126
 
+### ESEMPIO INLINE
+```html
+<p>Questo è un testo con <b>grassetto</b>, <i>corsivo</i>, <u>sottolineato</u> e <span style="color:red;">span colorato</span>.</p>
+```
+
 ## Citazioni
 > Con questo simbolo si inserisce una citazione rientrata nel documento (\>)
 >> Altra citazione rientrata (\>>)
@@ -89,12 +104,38 @@ NB ASTERISCO "STORTO" (accento grave) --> alt + 96
 Se si vuole inserire un'istruzione in un paragrafo normale la si mette tra asterischi "storti" (accenti gravi):  
 `public class ...` (per creare una classe in java)
 
-## Tabelle 
+## Tabelle  
 |Intestazione 1|Intestazione 2|Intestazione 3|
 |-|-|-|
 | valore 1 | valore 2 | valore 3 |
 | valore 4 | valore 5 | valore 6 |
 | valore 4 | valore 5 | valore 6 |
+
+## ESEMPIO  
+```html
+<table border="1">
+    <tr>
+      <th>Nome</th>
+      <th>Cognome</th>
+      <th>Età</th>
+    </tr>
+    <tr>
+      <td>Mario</td>
+      <td>Rossi</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Lucia</td>
+      <td>Bianchi</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Chiara</td>
+      <td>Ziliani</td>
+      <td>16</td>
+    </tr>
+  </table>
+```
 
 Per spostare le righe si deve tenere premuto ALT + SHIFT e spostare con le frecce (su o giu).
 
@@ -110,3 +151,54 @@ Ovviamente anche le note possono essere formattate [^2].
 
 [^1]: Questo è il testo della nota 1  
 [^2]: Questo è il testo della **nota 2**
+
+## Liste 
+- <ul> --> elenco puntato (unordered list)
+     - <li></li> --> nuovo elemento (list item)
+- <ol> --> elenco numerato (ordered list)
+     - <li></li> --> nuovo elemento (list item)
+
+### ESEMPIO 
+```html
+  <h2>Lista non ordinata (ul)</h2>
+  <ul>
+    <li>Pane</li>
+    <li>Latte</li>
+    <li>Uova</li>
+  </ul>
+
+  <h2>Lista ordinata (ol)</h2>
+  <ol>
+    <li>Primo passo</li>
+    <li>Secondo passo</li>
+    <li>Terzo passo</li>
+  </ol>
+```
+
+## Blocchi 
+BLOCK TIPE --> (per lavorare bene bisogna avere il riquadro "ispeziona" sempre aperto) impostazioni dello stile di ogni singolo elemento  
+    - es. <h1, h2, h3...> --> titoli (h1 più grande) / <article></article> (inserimento di un articolo)  
+    - Ogni parte di testo (titolo o contenuto) è un blocco  
+        - ogni blocco 
+            - va dal margine sinistro a quello destro  
+            - ha un BORDER (bordo)  
+            - ha un PADDING (spaziatura tra il blocco e il BORDER)  
+            - ha un MARGIN (spaziatura che separa i vari elementi)
+```html
+<header>Questa è l'intestazione del sito</header>
+  <nav>Menu di navigazione</nav>
+  <main>
+    <section>
+      <article>
+        <p>Paragrafo dentro un articolo.</p>
+        <div>Un blocco generico con div.</div>
+      </article>
+    </section>
+    <aside>Contenuto laterale (aside)</aside>
+    <details>
+      <summary>Dettagli espandibili</summary>
+      Testo nascosto che appare al click.
+    </details>
+  </main>
+  <footer>Questo è il piè di pagina</footer>
+```
