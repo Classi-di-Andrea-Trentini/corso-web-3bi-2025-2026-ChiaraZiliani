@@ -202,3 +202,21 @@ BLOCK TIPE --> (per lavorare bene bisogna avere il riquadro "ispeziona" sempre a
   </main>
   <footer>Questo è il piè di pagina</footer>
 ```
+
+## Struttura base del documento 
+- <!DOCTYPE html> --> versione 5
+    
+**TIM BERNERS-LEE** (creatore di html)  
+--> ha scelto più flessibilità  
+--> scelta di utilizzare HTML
+
+- **DOCTYPE**: definisce il tipo di documento (html5).
+- **Head**: contiene meta-informazioni.
+- **Body**: contiene il contenuto visibile.
+
+**HTML** --> diviso in --> **HEAD** e **BODY**  
+**HEAD** --> tag presenti non vengono visualizzati nel web (tranne quello del titolo della scheda in alto) --> vengono chiamati META INFORMAZIONI (= contenuti che forniscono informazioni aggiuntive sul documento)  
+--> utilizzati per 
+- **META KEYWORDS** --> parole chiave che parlano dell'argomento (più sono più verra visualizzato "in alto il sito" --> visitato di più)  
+- **META DESCRIPTION** --> descrizioni --> meglio le scriviamo più verra visualizzato "in alto il sito" --> utilizato di più dagli utenti  
+**BODY** -->  insieme di tutti i tag che costituiscono il documeto  
