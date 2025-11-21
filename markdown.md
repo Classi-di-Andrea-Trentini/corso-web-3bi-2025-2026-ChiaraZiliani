@@ -76,10 +76,21 @@ NB TILDE --> alt + 126
 **Immagini**
 ![Questa è un'immagine con URL relativa](universo-orig.webp)
 ![Questa è un'immagine con URL assoluta](https://cdn.studenti.stbm.it/images/2017/04/10/universo-orig.jpeg)
+
+PERCORSO RELATIVO: 
+./immagini/spazio/universo-orig.webp
+../universo-orig2.webp
+
 https:// --> hypertext transfer protocol --> serve per il trasferimento di ipertesti  
 **IPERTESTI** --> documenti che contengono collegamenti ad altri documenti o parti ello stello documento  
 **RGB** --> metodo additivo --> massimo di ogni colore = **bianco**  
 **STAMPANTE** --> metodo sottrattivo --> ciano giallo e magenta --> massimo di ogni colore = **nero**
+**URL/URI** --> percorso nel web che deve fare il programma per arrivare all'immagine (URI --> Uniform Resource Identifier / URL --> Uniform Resource Locator)
+
+### ESEMPIO
+```html
+
+```
 
 ## Codice 
 Per inserire codici o parti di codici si mettono tre asterischi "storti" (accenti gravi) con a seguire il nome del programma (java/bash...).
