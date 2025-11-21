@@ -64,11 +64,6 @@ ___Anche questo testo è in grassetto e corsivo___ (\_ _ _)
 ~~Questo testo è barrato~~ (\~~)  
 NB TILDE --> alt + 126
 
-### ESEMPIO INLINE
-```html
-<p>Questo è un testo con <b>grassetto</b>, <i>corsivo</i>, <u>sottolineato</u> e <span style="color:red;">span colorato</span>.</p>
-```
-
 ## Citazioni
 > Con questo simbolo si inserisce una citazione rientrata nel documento (\>)
 >> Altra citazione rientrata (\>>)
@@ -176,7 +171,7 @@ Ovviamente anche le note possono essere formattate [^2].
 ```
 
 ## Blocchi 
-BLOCK TIPE --> (per lavorare bene bisogna avere il riquadro "ispeziona" sempre aperto) impostazioni dello stile di ogni singolo elemento  
+**BLOCK TIPE** --> (per lavorare bene bisogna avere il riquadro "ispeziona" sempre aperto) impostazioni dello stile di ogni singolo elemento  
     - es. <h1, h2, h3...> --> titoli (h1 più grande) / <article></article> (inserimento di un articolo)  
     - Ogni parte di testo (titolo o contenuto) è un blocco  
         - ogni blocco 
@@ -201,6 +196,12 @@ BLOCK TIPE --> (per lavorare bene bisogna avere il riquadro "ispeziona" sempre a
     </details>
   </main>
   <footer>Questo è il piè di pagina</footer>
+```
+
+**INLINE**
+
+```html
+<p>Questo è un testo con <b>grassetto</b>, <i>corsivo</i>, <u>sottolineato</u> e <span style="color:red;">span colorato</span>.</p>
 ```
 
 ## Struttura base del documento 

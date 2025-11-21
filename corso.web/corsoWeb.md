@@ -26,11 +26,8 @@ Creo una pagina --> HTML per formattarla --> serve un programma per leggerla (BR
 - Printer server --> consente di condividere le stampanti 
 - Live Server --> (WebServer con più utilità) utilizzato per vedere l'anteprima in rete del sito che creiamo con anche e modifiche in tempo reale 
 
-### Struttura base
-- <!DOCTYPE html> --> versione 5 di html  
-STRUTTA AD ALBERO --> 
 
 ## HTML  
 <> --> parentesi angolari --> contengono un TAG  
-TAG** --> da aprire e chiudere --> hanno nomi semantici (--> prima si utilizzava sempre e solo <div></div> --> non si capiva il tipo di tag)  
+**TAG** --> da aprire e chiudere --> hanno nomi semantici (--> prima si utilizzava sempre e solo <div></div> --> non si capiva il tipo di tag)  
 **SEMANTICO** --> dal nome capisci il significato  

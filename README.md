@@ -15,9 +15,8 @@ Sito: https://www.conventionalcommits.org/en/v1.0.0/
 
 ## GIT 
 → si può utilizzare senza account GitHub/altri tipi  
-→ software che opera in locale sul computer  
+→ software di VERSIONAMENTO che opera in locale sul computer  
 → creato dallo sviluppatore del Kernel di Linux  
---> 
 
 x64 bit  vs  x32 bit  
 x64	→ possiamo disporre ed utilizzare più memoria ram  
