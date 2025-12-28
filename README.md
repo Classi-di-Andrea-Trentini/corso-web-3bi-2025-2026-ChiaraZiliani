@@ -93,8 +93,7 @@ Creo una pagina --> HTML per formattarla --> serve un programma per leggerla (BR
 
 ### Versioni 
 - più usata --> versione 4 
-- noi ci concentriamo su --> versione 5 
-
+- noi ci concentriamo su --> VERSIONE 5
 ***Sito utile*** https://www.w3schools.com/
 
 **Per pubblicare il nostro sito web ci serve --> webServer**
@@ -107,7 +106,7 @@ Creo una pagina --> HTML per formattarla --> serve un programma per leggerla (BR
 - Live Server --> (WebServer con più utilità) utilizzato per vedere l'anteprima in rete del sito che creiamo con anche e modifiche in tempo reale 
 
 ### Struttura base
-- <!DOCTYPE html> --> versione 5
+- <!DOCTYPE html> --> VERSIONE 5
     
 
 **TIM BERNERS-LEE** (creatore di html)  
