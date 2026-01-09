@@ -185,7 +185,8 @@ BODY -->  insieme di tutti i tag che costituiscono il documeto
     <link rel="stylesheet" href="./Stile2.css"> <!-- Collegamento al file CSS esterno -->
 </head>
 <body>
-    <h1 style="color:red; font-family: Arial, Helvetica, sans-serif; ">Titolo del sito, col attributo style</h1> <!-- Titolo del sito con stile inline -->
+    /* Titolo del sito, inline */
+    <h1 style="color:red; font-family: Arial, Helvetica, sans-serif; ">Titolo del sito, col attributo style</h1> 
     <h1>Titolo h1 senza attributo style</h1>
 </body>
 </html>
@@ -196,10 +197,42 @@ Nel codice sopra la priorità è:
 3. Stile1.css
 4. inline
 
+**NB** --> se i tag sono [!important] allora hanno precenda ma se più tag lo hanno conta comunque l'ultimo che viene caricato  
+
 **ID**  
 --> per scrivere dei testi (titoli, paragrafi...) speciali, con caratteristiche diverse dallo Style  
 --> può esserci un solo ID con il nome in tutto il codice  
+```html
+<body> 
+    <p id="paragrafo-speciale">Questo è un paragrafo speciale!!</p>
+    <p>Questo è un paragrafo normale</p>
+</body>
+```
+```css
+/* Stile CSS per il paragrafo con id "paragrafo-speciale" */
+p#paragrafo-speciale {
+    color: red;
+}
+```
 
 **CLASSE**  
 --> per scrivere dei testi (titoli, paragrafi...) speciali, con caratteristiche diverse dallo Style  
---> applica le caratteristiche a tutti i tag della classe
+--> applica le caratteristiche a tutti i tag della classe  
+```html
+<body>
+    /* Paragrazi con classi */
+    <P class="verde">Questo è un paragrafo verde</P>
+    <P class="blue">Questo è un paragrafo blu</P>
+    <P class="verde">Questo è un paragrafo verde</P>
+    <P class="blue">Questo è un paragrafo blu</P>
+    <P class="verde">Questo è un paragrafo verde</P>
+    <P class="blue">Questo è un paragrafo blu</P>
+    <P class="verde">Questo è un paragrafo verde</P>
+    <P class="blue">Questo è un paragrafo blu</P>
+    <P class="verde">Questo è un paragrafo verde</P>
+    <P class="blue">Questo è un paragrafo blu</P>
+</body>
+```
+```css
+
+```
