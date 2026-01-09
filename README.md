@@ -153,3 +153,53 @@ BODY -->  insieme di tutti i tag che costituiscono il documeto
                     - <td> --> dati della cella della tabella (table data)
                     - <td>
                     - <td> 
+
+
+## CASCADING STYLE SHEETS [CSS]
+--> tecnologia che ci permette di dare un apetto grafico alla pagine web  
+--> il nome riguarda il funzionamento 
+--> possono esserci più file CSS in una pagina web con cratteristiche diverse 
+
+!important --> comando che da precedenza a quelle caratteristiche rispetto a quelle inline o altre  
+
+
+**PRIORITA'**  
+*l'ultimo che viene caricato vince*  
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Stile1.css"> <!-- Collegamento al file CSS esterno -->
+    <style>
+        /* Stile CSS per il titolo del sito */
+        /* Tutti i titoli h1 avranno le caratteristiche seguenti */
+        h1 {
+            color: blue !important; /* Il colore blu avrà la precedenza su altri stili */
+            border: 2px solid black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+    <link rel="stylesheet" href="./Stile2.css"> <!-- Collegamento al file CSS esterno -->
+</head>
+<body>
+    <h1 style="color:red; font-family: Arial, Helvetica, sans-serif; ">Titolo del sito, col attributo style</h1> <!-- Titolo del sito con stile inline -->
+    <h1>Titolo h1 senza attributo style</h1>
+</body>
+</html>
+```
+Nel codice sopra la priorità è:
+1. Stile2.css
+2. <style>
+3. Stile1.css
+4. inline
+
+**ID**  
+--> per scrivere dei testi (titoli, paragrafi...) speciali, con caratteristiche diverse dallo Style  
+--> può esserci un solo ID con il nome in tutto il codice  
+
+**CLASSE**  
+--> per scrivere dei testi (titoli, paragrafi...) speciali, con caratteristiche diverse dallo Style  
+--> applica le caratteristiche a tutti i tag della classe
