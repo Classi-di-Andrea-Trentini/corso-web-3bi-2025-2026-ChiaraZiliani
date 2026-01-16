@@ -1,8 +1,6 @@
 /* Stile CSS per tutti gli elementi, per tutti i tag */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2px;
-    margin: 2px;
 }
 
 /* Stile CSS per i titoli h1 */
@@ -41,4 +39,41 @@ footer div p {
 h2, h3, h4, .viola {
     color: purple;
     font-family: 'Courier New', Courier, monospace;
+}
+
+/* Stile CSS per i link */
+
+/* Stile per lo stato normale del link */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Stile per lo stato hover del link (quando "vai sopra col mouse") */
+a:hover {
+    text-decoration: underline !important;
+    color: red;
+}
+
+/* Stile per lo stato active del link (quando "clicchi il link, senza rilasciarlo") */
+a:active {
+    text-decoration: line-through !important;
+    color: green;
+}
+
+/* Stile per lo stato visited del link (quando "hai già visitato il link") */
+a:visited {
+    color: darkviolet;
+}
+
+/* Stile per lo stato link del link (quando "il link è ancora da visitare") */
+a:link {
+    color: darkblue;
+}
+
+/* Stile CSS per il menu orizzontale */
+.menuOrizzontale {
+    display: flex; /* Flex --> fa in modoche gli elementi bloock type vengano visualizzati in riga uno dopo l'altro */
+    list-style-type: none; /* Rimuove i pallini davanti agli elementi della lista */
+    gap: 20px; /* Spazio tra gli elementi della lista */
 }
