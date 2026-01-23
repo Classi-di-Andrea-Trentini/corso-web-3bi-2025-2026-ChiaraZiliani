@@ -131,6 +131,7 @@ BODY -->  insieme di tutti i tag che costituiscono il documeto
             - ha un PADDING (spaziatura tra il blocco e il BORDER)  
             - ha un MARGIN (spaziatura che separa i vari elementi)
     - LISTA COMANDI:
+    ```html
         - <P> --> nuovo paragrafo 
         - <h1, h2, h3...> --> titolo 
         - <div> --> contenitore generico 
@@ -153,6 +154,8 @@ BODY -->  insieme di tutti i tag che costituiscono il documeto
                     - <td> --> dati della cella della tabella (table data)
                     - <td>
                     - <td> 
+                - </tr> --> chiusura riga
+    ```
 
 
 ## CASCADING STYLE SHEETS [CSS]
@@ -234,7 +237,52 @@ p#paragrafo-speciale {
 </body>
 ```
 ```css
+/* Stile CSS per i paragrafi con classe verde */
+p.verde {
+    color: green;  
+}
 
+/* Stile CSS per i paragrafi con classe blue */
+p.blue {
+    color: blue;  
+}
 ```
 
-**LINK**
+**LINK**  
+*STATI*
+- NORMALE
+- HOVER (quando si sposta il mouse sopra)
+- ACTIVE (quando si clicca, senza rilasciare)
+- VISITED (quando si ha già visitato la pagina corrispondente)
+- LINK (quando si deve ancora visitare la pagina corrispondente)
+```css
+/* Stile CSS per i link */
+
+/* Stile per lo stato normale del link */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Stile per lo stato hover del link (quando "vai sopra col mouse") */
+a:hover {
+    text-decoration: underline !important;
+    color: red;
+}
+
+/* Stile per lo stato active del link (quando "clicchi il link, senza rilasciarlo") */
+a:active {
+    text-decoration: line-through !important;
+    color: green;
+}
+
+/* Stile per lo stato visited del link (quando "hai già visitato il link") */
+a:visited {
+    color: darkviolet;
+}
+
+/* Stile per lo stato link del link (quando "il link è ancora da visitare") */
+a:link {
+    color: darkblue;
+}
+```
