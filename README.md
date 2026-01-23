@@ -196,7 +196,7 @@ BODY -->  insieme di tutti i tag che costituiscono il documeto
 ```
 Nel codice sopra la priorità è:
 1. Stile2.css
-2. <style>
+2. \<style>
 3. Stile1.css
 4. inline
 
@@ -286,3 +286,16 @@ a:link {
     color: darkblue;
 }
 ```
+```html
+/* Esempio di collegamenti a pagine web */
+    <nav>
+        <ul class="menuOrizzontale">
+            <li><a href="https://google.com">Google</a></li>
+            <li><a href="https://microsoft.com">Microsoft</a></li>
+            <li><a href="https://meta.com">Meta</a></li>
+        </ul>
+    </nav>
+```
+
+**MENU ORIZZONTALE**  
+Utilizziamo il comando *FLEX* --> fa in modo che gli elementi block type vengano visualizzati in riga uno dopo l'altro 

@@ -48,7 +48,7 @@ a {
     text-decoration: none;
     color: black;
 }
-
+ 
 /* Stile per lo stato hover del link (quando "vai sopra col mouse") */
 a:hover {
     text-decoration: underline !important;
@@ -73,7 +73,7 @@ a:link {
 
 /* Stile CSS per il menu orizzontale */
 .menuOrizzontale {
-    display: flex; /* Flex --> fa in modoche gli elementi bloock type vengano visualizzati in riga uno dopo l'altro */
+    display: flex; /* Flex --> fa in modo che gli elementi block type vengano visualizzati in riga uno dopo l'altro */
     list-style-type: none; /* Rimuove i pallini davanti agli elementi della lista */
     gap: 20px; /* Spazio tra gli elementi della lista */
 }
