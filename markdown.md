@@ -231,4 +231,4 @@ Ovviamente anche le note possono essere formattate [^2].
 --> utilizzati per 
 - **META KEYWORDS** --> parole chiave che parlano dell'argomento (più sono più verra visualizzato "in alto il sito" --> visitato di più)  
 - **META DESCRIPTION** --> descrizioni --> meglio le scriviamo più verra visualizzato "in alto il sito" --> utilizato di più dagli utenti  
-**BODY** -->  insieme di tutti i tag che costituiscono il documeto  
+**BODY** --> insieme di tutti i tag che costituiscono il documeto  
