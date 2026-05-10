@@ -40,10 +40,37 @@
         </div>
     </nav>
 
-    <script src="./script/dom.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <button class="btn btn-primary" onclick="saluta()">Saluta!</button>
+                    <input class="form-control" type="text" placeholder="Scrivi il tuo nome..." id="nome_utente">
+                </div>
+            </div>
+            <div class="col-6">
+                <div id="saluto"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <button class="btn btn-primary">Altro Benvenuto</button>
+                </div>
+            </div>
+            <div class="col-6">
+                <div id="benvebuto"></div>
+            </div>
+        </div>
+    </div>
+
+        <script src="./script/dom.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
